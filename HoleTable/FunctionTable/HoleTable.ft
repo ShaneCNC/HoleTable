@@ -2,11 +2,11 @@
 # NETHook function table			
 ###############################################################################
 #
-# Name		: PROJECT_NAME.ft
-# NETHook 	: PROJECT_NAME.dll
+# Name		: HoleTable.ft
+# NETHook 	: HoleTable.dll
 # Date		: 
 # Author	: 
-# Notes		:  ** Update all PROJECT_NAME references with the projects name **
+# Notes		:  ** Update all HoleTable references with the projects name **
 # Language	: C#
 #
 ###############################################################################
@@ -15,16 +15,16 @@
 ######################
 # ASSIGN A UNIQUE NAME
 ######################
-APPLICATION "__PROJECT_NAME__"
+APPLICATION "__HoleTable__"
 
 ######################
 # NETHook LOCATION
 ######################
 #
 # Update paths below to match your install path and project name.
-FUNC_DLL   "CHOOKS\PROJECT_NAME.dll"
+FUNC_DLL   "CHOOKS\HoleTable.dll"
 RES_DLL    "SAME"
-dnRES_NAME "PROJECT_NAME.FunctionTable.Resource"
+dnRES_NAME "HoleTable.FunctionTable.Resource"
 CATEGORY   "MY NET-HOOK"
 
 ##############################################################################
